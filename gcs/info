@@ -1,0 +1,27 @@
+# YAML 1.1
+# Fichero de configuración de paquetes de personalización de Guadalinex
+
+# Nombre del paquete (minúsculas-separado-con-guiones)
+name: gecosws-certificates-locale
+
+# Autor 
+author: Alfonso de Cala <alfonso.cala@juntadeandalucia.es>
+
+#Priority
+priority: optional
+
+# Section
+section: metapackages
+
+# Descripción corta
+shortdesc: "Empty package pointing at real package with local certificate authorities."
+
+# Descipción larga, las lineas han de estar separadas por "\n "
+longdesc: "This package only contains dependencies to other packages with Certificate Authorities valid for your deployment."
+
+# Versión del paquete
+version: 1.0
+
+# Cambios en esta versión
+changes:
+    - Initial release.
